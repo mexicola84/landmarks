@@ -1,3 +1,3 @@
-# Completed project: Handling user input
+Overwrote initial Git push, so there's a new foundation to work from.
 
-Explore the completed project for the [Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input) tutorial.
+SwiftUI Tutorial by Apple - building a landmark app with SwiftUI.
