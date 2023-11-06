@@ -29,9 +29,10 @@ struct ContentView: View {
                 }
                 .tag(Tab.list)
         }
-}
-
-#Preview {
-    ContentView()
-        .environment(ModelData())
+    }
+    
+//    #Preview {
+//        ContentView()
+//            .environment(ModelData())
+//    }
 }
