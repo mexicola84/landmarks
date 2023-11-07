@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1250F732AFA15EA001F6208 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1250F722AFA15EA001F6208 /* ProfileEditor.swift */; };
 		A14C78ED2AF8C7A3009ECD50 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C78EC2AF8C7A3009ECD50 /* HexagonParameters.swift */; };
 		A14C78EF2AF8C95B009ECD50 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C78EE2AF8C95B009ECD50 /* BadgeBackground.swift */; };
 		A14C78F12AF8D423009ECD50 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C78F02AF8D423009ECD50 /* BadgeSymbol.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		6AF17FBC250C47AD4B5BC2FB /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		A1250F722AFA15EA001F6208 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		A14C78EC2AF8C7A3009ECD50 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		A14C78EE2AF8C95B009ECD50 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		A14C78F02AF8D423009ECD50 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				A14C790E2AF995E7009ECD50 /* ProfileHost.swift */,
 				A14C79102AF997CA009ECD50 /* ProfileSummary.swift */,
+				A1250F722AFA15EA001F6208 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				A14C78FA2AF8DE78009ECD50 /* Hike.swift in Sources */,
 				A14C78ED2AF8C7A3009ECD50 /* HexagonParameters.swift in Sources */,
 				A14C78F12AF8D423009ECD50 /* BadgeSymbol.swift in Sources */,
+				A1250F732AFA15EA001F6208 /* ProfileEditor.swift in Sources */,
 				C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */,
 				A14C79032AF8E05F009ECD50 /* HikeView.swift in Sources */,
 				C2C583BD24DB807000DD0019 /* ContentView.swift in Sources */,

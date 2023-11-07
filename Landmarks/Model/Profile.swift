@@ -14,6 +14,9 @@ struct Profile {
     var seasonalPhoto = Season.winter
     var goalDate = Date()
     
+/* default ist ein von Swift reserviertes Keyword, mit der folgenden
+Auszeichnung kann man den Begriff dennoch verwenden. */
+    
     static let `default` = Profile(username: "j_grimm")
     
     enum Season: String, CaseIterable, Identifiable {
