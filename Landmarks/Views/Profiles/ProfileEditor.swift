@@ -40,8 +40,9 @@ struct ProfileEditor: View {
                 .pickerStyle(.segmented)
             }
             
-            DatePicker(selection: $profile.goalDate, in: dateRange, displayedComponents: .date)
-            Text("Goal Date").bold()
+            DatePicker(selection: $profile.goalDate, in: dateRange, displayedComponents: .date) {
+                Text("Goal Date").bold()
+            } 
         }
     }
 }
