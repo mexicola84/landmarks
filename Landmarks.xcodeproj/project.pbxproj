@@ -29,6 +29,9 @@
 		A17084AA2AFBEAF60043CAAB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17084A92AFBEAF60043CAAB /* PageViewController.swift */; };
 		A17084AC2AFC144F0043CAAB /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17084AB2AFC144F0043CAAB /* FeatureCard.swift */; };
 		A17084AE2AFC1E120043CAAB /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17084AD2AFC1E120043CAAB /* PageView.swift */; };
+		A17CE4282B0568AD00BCF08B /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CE4272B0568AD00BCF08B /* LandmarkList.swift */; };
+		A17CE42A2B0571EE00BCF08B /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CE4292B0571EE00BCF08B /* LandmarkCommands.swift */; };
+		A17CE42B2B0571FE00BCF08B /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CE4292B0571EE00BCF08B /* LandmarkCommands.swift */; };
 		A1820E1E2B040D4A00D7C35F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1820E1D2B040D4A00D7C35F /* ContentView.swift */; };
 		A1820E202B040D4C00D7C35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1820E1F2B040D4C00D7C35F /* Assets.xcassets */; };
 		A1820E232B040D4C00D7C35F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1820E222B040D4C00D7C35F /* Preview Assets.xcassets */; };
@@ -57,7 +60,6 @@
 		A1C6F53D2B016D22000BA328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C6F53C2B016D22000BA328 /* Preview Assets.xcassets */; };
 		A1C6F5402B016D22000BA328 /* WatchLandmarks Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A1C6F5332B016D1C000BA328 /* WatchLandmarks Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A1C6F5542B01722F000BA328 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */; };
-		A1C6F5552B01722F000BA328 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D780A24B68B4D002E7AEA /* LandmarkList.swift */; };
 		A1C6F5562B01722F000BA328 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77FC24B668F4002E7AEA /* CircleImage.swift */; };
 		A1C6F5572B01722F000BA328 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C790B2AF9926B009ECD50 /* Profile.swift */; };
 		A1C6F5582B01722F000BA328 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A14C78F72AF8DE4F009ECD50 /* hikeData.json */; };
@@ -130,6 +132,8 @@
 		A17084A92AFBEAF60043CAAB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A17084AB2AFC144F0043CAAB /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		A17084AD2AFC1E120043CAAB /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		A17CE4272B0568AD00BCF08B /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		A17CE4292B0571EE00BCF08B /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
 		A1820E192B040D4A00D7C35F /* MacLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1820E1D2B040D4A00D7C35F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1820E1F2B040D4C00D7C35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -255,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				A1820E1D2B040D4A00D7C35F /* ContentView.swift */,
+				A17CE4292B0571EE00BCF08B /* LandmarkCommands.swift */,
 				A1820E352B040F5700D7C35F /* LandmarkDetail.swift */,
 				A1820E1F2B040D4C00D7C35F /* Assets.xcassets */,
 				A1820E242B040D4C00D7C35F /* MacLandmarks.entitlements */,
@@ -275,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				A18226BE2B02071E00A21A80 /* ContentView.swift */,
+				A17CE4272B0568AD00BCF08B /* LandmarkList.swift */,
 				A18226C12B02073600A21A80 /* LandmarkDetail.swift */,
 				A18226C32B02073600A21A80 /* NotificationController.swift */,
 				A18226C22B02073600A21A80 /* NotificationView.swift */,
@@ -539,6 +545,7 @@
 				A1820E292B040DE400D7C35F /* Profile.swift in Sources */,
 				A1820E1E2B040D4A00D7C35F /* ContentView.swift in Sources */,
 				A1820E312B040DE400D7C35F /* FavoriteButton.swift in Sources */,
+				A17CE42A2B0571EE00BCF08B /* LandmarkCommands.swift in Sources */,
 				A1820E362B040F5700D7C35F /* LandmarkDetail.swift in Sources */,
 				A1820E342B040DE400D7C35F /* LandmarksApp.swift in Sources */,
 				A1820E2F2B040DE400D7C35F /* Hike.swift in Sources */,
@@ -558,9 +565,9 @@
 				A1C6F5572B01722F000BA328 /* Profile.swift in Sources */,
 				A18226C62B02073600A21A80 /* NotificationView.swift in Sources */,
 				A1C6F55E2B01722F000BA328 /* Hike.swift in Sources */,
+				A17CE4282B0568AD00BCF08B /* LandmarkList.swift in Sources */,
 				A18226C52B02073600A21A80 /* LandmarkDetail.swift in Sources */,
 				A1C6F5542B01722F000BA328 /* LandmarksApp.swift in Sources */,
-				A1C6F5552B01722F000BA328 /* LandmarkList.swift in Sources */,
 				A1C6F55A2B01722F000BA328 /* LandmarkRow.swift in Sources */,
 				A1C6F55D2B01722F000BA328 /* ModelData.swift in Sources */,
 				A18226C72B02073600A21A80 /* NotificationController.swift in Sources */,
@@ -576,6 +583,7 @@
 			files = (
 				A14C79082AF90B72009ECD50 /* CategoryRow.swift in Sources */,
 				A14C790C2AF9926C009ECD50 /* Profile.swift in Sources */,
+				A17CE42B2B0571FE00BCF08B /* LandmarkCommands.swift in Sources */,
 				C20D780524B684EC002E7AEA /* ModelData.swift in Sources */,
 				A14C79062AF9086C009ECD50 /* CategoryHome.swift in Sources */,
 				A17084AC2AFC144F0043CAAB /* FeatureCard.swift in Sources */,
